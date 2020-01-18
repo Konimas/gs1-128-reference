@@ -1,4211 +1,4211 @@
-{
-	"00": {
-		"key": 00,
-		"range": "N2+N18",
-		"minSize": 18,
-		"maxSize": 18,
-		"field": "sscc"
-	},
-	"01": {
-		"key": 01,
-		"range": "N2+N14",
-		"minSize": 14,
-		"maxSize": 14,
-		"field": "reference"
-	},
-	"02": {
-		"key": 02,
-		"range": "N2+N14",
-		"minSize": 14,
-		"maxSize": 14,
-		"field": "reference"
-	},
-	"10": {
-		"key": 10,
-		"range": "N2+X..20",
-		"minSize": 0,
-		"maxSize": 20,
-		"field": "batch"
-	},
-	"11": {
-		"key": 11,
-		"range": "N2+N6",
-		"minSize": 6,
-		"maxSize": 6,
-		"field": "productionDate"
-	},
-	"12": {
-		"key": 12,
-		"range": "N2+N6",
-		"minSize": 6,
-		"maxSize": 6,
-		"field": "dueDate"
-	},
-	"13": {
-		"key": 13,
-		"range": "N2+N6",
-		"minSize": 6,
-		"maxSize": 6,
-		"field": "packagingDate"
-	},
-	"15": {
-		"key": 15,
-		"range": "N2+N6",
-		"minSize": 6,
-		"maxSize": 6,
-		"field": "bestBeforeDate"
-	},
-	"16": {
-		"key": 16,
-		"range": "N2+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"17": {
-		"key": 17,
-		"range": "N2+N6",
-		"minSize": 6,
-		"maxSize": 6,
-		"field": "expirationdate"
-	},
-	"20": {
-		"key": 20,
-		"range": "N2+N2",
-		"minSize": 2,
-		"maxSize": 2,
-		"field": "internalProductVariant"
-	},
-	"21": {
-		"key": 21,
-		"range": "N2+X..20",
-		"minSize": 0,
-		"maxSize": 20,
-		"field": "consumerProductVariant"
-	},
-	"22": {
-		"key": 22,
-		"range": "N2+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"235": {
-		"key": 235,
-		"range": "N3+X..28",
-		"minSize": 0,
-		"maxSize": 28
-	},
-	"240": {
-		"key": 240,
-		"range": "N3+X..30",
-		"minSize": 0,
-		"maxSize": 30
-	},
-	"241": {
-		"key": 241,
-		"range": "N3+X..30",
-		"minSize": 0,
-		"maxSize": 30
-	},
-	"242": {
-		"key": 242,
-		"range": "N3+N..6",
-		"minSize": 0,
-		"maxSize": 6
-	},
-	"243": {
-		"key": 243,
-		"range": "N3+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"250": {
-		"key": 250,
-		"range": "N3+X..30",
-		"minSize": 0,
-		"maxSize": 30
-	},
-	"251": {
-		"key": 251,
-		"range": "N3+X..30",
-		"minSize": 0,
-		"maxSize": 30
-	},
-	"253": {
-		"key": 253,
-		"range": "N3+N13+X..17",
-		"minSize": 13,
-		"maxSize": 30
-	},
-	"254": {
-		"key": 254,
-		"range": "N3+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"255": {
-		"key": 255,
-		"range": "N3+N13+N..12",
-		"minSize": 13,
-		"maxSize": 25
-	},
-	"30": {
-		"key": 30,
-		"range": "N2+N..8",
-		"minSize": 0,
-		"maxSize": 8
-	},
-	"3100": {
-		"key": 3100,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3101": {
-		"key": 3101,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3102": {
-		"key": 3102,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3103": {
-		"key": 3103,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3104": {
-		"key": 3104,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3105": {
-		"key": 3105,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3106": {
-		"key": 3106,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3107": {
-		"key": 3107,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3108": {
-		"key": 3108,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3109": {
-		"key": 3109,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3110": {
-		"key": 3110,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3111": {
-		"key": 3111,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3112": {
-		"key": 3112,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3113": {
-		"key": 3113,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3114": {
-		"key": 3114,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3115": {
-		"key": 3115,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3116": {
-		"key": 3116,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3117": {
-		"key": 3117,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3118": {
-		"key": 3118,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3119": {
-		"key": 3119,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3120": {
-		"key": 3120,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3121": {
-		"key": 3121,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3122": {
-		"key": 3122,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3123": {
-		"key": 3123,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3124": {
-		"key": 3124,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3125": {
-		"key": 3125,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3126": {
-		"key": 3126,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3127": {
-		"key": 3127,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3128": {
-		"key": 3128,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3129": {
-		"key": 3129,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3130": {
-		"key": 3130,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3131": {
-		"key": 3131,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3132": {
-		"key": 3132,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3133": {
-		"key": 3133,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3134": {
-		"key": 3134,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3135": {
-		"key": 3135,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3136": {
-		"key": 3136,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3137": {
-		"key": 3137,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3138": {
-		"key": 3138,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3139": {
-		"key": 3139,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3140": {
-		"key": 3140,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3141": {
-		"key": 3141,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3142": {
-		"key": 3142,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3143": {
-		"key": 3143,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3144": {
-		"key": 3144,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3145": {
-		"key": 3145,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3146": {
-		"key": 3146,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3147": {
-		"key": 3147,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3148": {
-		"key": 3148,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3149": {
-		"key": 3149,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3150": {
-		"key": 3150,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3151": {
-		"key": 3151,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3152": {
-		"key": 3152,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3153": {
-		"key": 3153,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3154": {
-		"key": 3154,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3155": {
-		"key": 3155,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3156": {
-		"key": 3156,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3157": {
-		"key": 3157,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3158": {
-		"key": 3158,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3159": {
-		"key": 3159,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3160": {
-		"key": 3160,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3161": {
-		"key": 3161,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3162": {
-		"key": 3162,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3163": {
-		"key": 3163,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3164": {
-		"key": 3164,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3165": {
-		"key": 3165,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3166": {
-		"key": 3166,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3167": {
-		"key": 3167,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3168": {
-		"key": 3168,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3169": {
-		"key": 3169,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3200": {
-		"key": 3200,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3201": {
-		"key": 3201,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3202": {
-		"key": 3202,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3203": {
-		"key": 3203,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3204": {
-		"key": 3204,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3205": {
-		"key": 3205,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3206": {
-		"key": 3206,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3207": {
-		"key": 3207,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3208": {
-		"key": 3208,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3209": {
-		"key": 3209,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3210": {
-		"key": 3210,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3211": {
-		"key": 3211,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3212": {
-		"key": 3212,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3213": {
-		"key": 3213,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3214": {
-		"key": 3214,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3215": {
-		"key": 3215,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3216": {
-		"key": 3216,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3217": {
-		"key": 3217,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3218": {
-		"key": 3218,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3219": {
-		"key": 3219,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3220": {
-		"key": 3220,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3221": {
-		"key": 3221,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3222": {
-		"key": 3222,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3223": {
-		"key": 3223,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3224": {
-		"key": 3224,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3225": {
-		"key": 3225,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3226": {
-		"key": 3226,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3227": {
-		"key": 3227,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3228": {
-		"key": 3228,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3229": {
-		"key": 3229,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3230": {
-		"key": 3230,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3231": {
-		"key": 3231,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3232": {
-		"key": 3232,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3233": {
-		"key": 3233,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3234": {
-		"key": 3234,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3235": {
-		"key": 3235,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3236": {
-		"key": 3236,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3237": {
-		"key": 3237,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3238": {
-		"key": 3238,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3239": {
-		"key": 3239,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3240": {
-		"key": 3240,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3241": {
-		"key": 3241,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3242": {
-		"key": 3242,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3243": {
-		"key": 3243,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3244": {
-		"key": 3244,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3245": {
-		"key": 3245,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3246": {
-		"key": 3246,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3247": {
-		"key": 3247,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3248": {
-		"key": 3248,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3249": {
-		"key": 3249,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3250": {
-		"key": 3250,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3251": {
-		"key": 3251,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3252": {
-		"key": 3252,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3253": {
-		"key": 3253,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3254": {
-		"key": 3254,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3255": {
-		"key": 3255,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3256": {
-		"key": 3256,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3257": {
-		"key": 3257,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3258": {
-		"key": 3258,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3259": {
-		"key": 3259,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3260": {
-		"key": 3260,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3261": {
-		"key": 3261,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3262": {
-		"key": 3262,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3263": {
-		"key": 3263,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3264": {
-		"key": 3264,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3265": {
-		"key": 3265,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3266": {
-		"key": 3266,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3267": {
-		"key": 3267,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3268": {
-		"key": 3268,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3269": {
-		"key": 3269,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3270": {
-		"key": 3270,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3271": {
-		"key": 3271,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3272": {
-		"key": 3272,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3273": {
-		"key": 3273,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3274": {
-		"key": 3274,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3275": {
-		"key": 3275,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3276": {
-		"key": 3276,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3277": {
-		"key": 3277,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3278": {
-		"key": 3278,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3279": {
-		"key": 3279,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3280": {
-		"key": 3280,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3281": {
-		"key": 3281,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3282": {
-		"key": 3282,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3283": {
-		"key": 3283,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3284": {
-		"key": 3284,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3285": {
-		"key": 3285,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3286": {
-		"key": 3286,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3287": {
-		"key": 3287,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3288": {
-		"key": 3288,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3289": {
-		"key": 3289,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3290": {
-		"key": 3290,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3291": {
-		"key": 3291,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3292": {
-		"key": 3292,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3293": {
-		"key": 3293,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3294": {
-		"key": 3294,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3295": {
-		"key": 3295,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3296": {
-		"key": 3296,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3297": {
-		"key": 3297,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3298": {
-		"key": 3298,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3299": {
-		"key": 3299,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3300": {
-		"key": 3300,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3301": {
-		"key": 3301,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3302": {
-		"key": 3302,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3303": {
-		"key": 3303,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3304": {
-		"key": 3304,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3305": {
-		"key": 3305,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3306": {
-		"key": 3306,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3307": {
-		"key": 3307,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3308": {
-		"key": 3308,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3309": {
-		"key": 3309,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3310": {
-		"key": 3310,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3311": {
-		"key": 3311,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3312": {
-		"key": 3312,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3313": {
-		"key": 3313,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3314": {
-		"key": 3314,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3315": {
-		"key": 3315,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3316": {
-		"key": 3316,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3317": {
-		"key": 3317,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3318": {
-		"key": 3318,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3319": {
-		"key": 3319,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3320": {
-		"key": 3320,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3321": {
-		"key": 3321,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3322": {
-		"key": 3322,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3323": {
-		"key": 3323,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3324": {
-		"key": 3324,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3325": {
-		"key": 3325,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3326": {
-		"key": 3326,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3327": {
-		"key": 3327,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3328": {
-		"key": 3328,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3329": {
-		"key": 3329,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3330": {
-		"key": 3330,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3331": {
-		"key": 3331,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3332": {
-		"key": 3332,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3333": {
-		"key": 3333,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3334": {
-		"key": 3334,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3335": {
-		"key": 3335,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3336": {
-		"key": 3336,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3337": {
-		"key": 3337,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3338": {
-		"key": 3338,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3339": {
-		"key": 3339,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3340": {
-		"key": 3340,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3341": {
-		"key": 3341,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3342": {
-		"key": 3342,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3343": {
-		"key": 3343,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3344": {
-		"key": 3344,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3345": {
-		"key": 3345,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3346": {
-		"key": 3346,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3347": {
-		"key": 3347,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3348": {
-		"key": 3348,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3349": {
-		"key": 3349,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3350": {
-		"key": 3350,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3351": {
-		"key": 3351,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3352": {
-		"key": 3352,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3353": {
-		"key": 3353,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3354": {
-		"key": 3354,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3355": {
-		"key": 3355,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3356": {
-		"key": 3356,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3357": {
-		"key": 3357,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3358": {
-		"key": 3358,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3359": {
-		"key": 3359,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3360": {
-		"key": 3360,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3361": {
-		"key": 3361,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3362": {
-		"key": 3362,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3363": {
-		"key": 3363,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3364": {
-		"key": 3364,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3365": {
-		"key": 3365,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3366": {
-		"key": 3366,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3367": {
-		"key": 3367,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3368": {
-		"key": 3368,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3369": {
-		"key": 3369,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3370": {
-		"key": 3370,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3371": {
-		"key": 3371,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3372": {
-		"key": 3372,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3373": {
-		"key": 3373,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3374": {
-		"key": 3374,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3375": {
-		"key": 3375,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3376": {
-		"key": 3376,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3377": {
-		"key": 3377,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3378": {
-		"key": 3378,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3379": {
-		"key": 3379,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3400": {
-		"key": 3400,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3401": {
-		"key": 3401,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3402": {
-		"key": 3402,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3403": {
-		"key": 3403,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3404": {
-		"key": 3404,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3405": {
-		"key": 3405,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3406": {
-		"key": 3406,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3407": {
-		"key": 3407,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3408": {
-		"key": 3408,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3409": {
-		"key": 3409,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3410": {
-		"key": 3410,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3411": {
-		"key": 3411,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3412": {
-		"key": 3412,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3413": {
-		"key": 3413,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3414": {
-		"key": 3414,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3415": {
-		"key": 3415,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3416": {
-		"key": 3416,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3417": {
-		"key": 3417,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3418": {
-		"key": 3418,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3419": {
-		"key": 3419,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3420": {
-		"key": 3420,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3421": {
-		"key": 3421,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3422": {
-		"key": 3422,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3423": {
-		"key": 3423,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3424": {
-		"key": 3424,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3425": {
-		"key": 3425,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3426": {
-		"key": 3426,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3427": {
-		"key": 3427,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3428": {
-		"key": 3428,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3429": {
-		"key": 3429,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3430": {
-		"key": 3430,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3431": {
-		"key": 3431,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3432": {
-		"key": 3432,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3433": {
-		"key": 3433,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3434": {
-		"key": 3434,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3435": {
-		"key": 3435,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3436": {
-		"key": 3436,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3437": {
-		"key": 3437,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3438": {
-		"key": 3438,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3439": {
-		"key": 3439,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3440": {
-		"key": 3440,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3441": {
-		"key": 3441,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3442": {
-		"key": 3442,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3443": {
-		"key": 3443,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3444": {
-		"key": 3444,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3445": {
-		"key": 3445,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3446": {
-		"key": 3446,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3447": {
-		"key": 3447,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3448": {
-		"key": 3448,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3449": {
-		"key": 3449,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3450": {
-		"key": 3450,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3451": {
-		"key": 3451,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3452": {
-		"key": 3452,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3453": {
-		"key": 3453,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3454": {
-		"key": 3454,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3455": {
-		"key": 3455,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3456": {
-		"key": 3456,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3457": {
-		"key": 3457,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3458": {
-		"key": 3458,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3459": {
-		"key": 3459,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3460": {
-		"key": 3460,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3461": {
-		"key": 3461,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3462": {
-		"key": 3462,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3463": {
-		"key": 3463,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3464": {
-		"key": 3464,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3465": {
-		"key": 3465,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3466": {
-		"key": 3466,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3467": {
-		"key": 3467,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3468": {
-		"key": 3468,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3469": {
-		"key": 3469,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3470": {
-		"key": 3470,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3471": {
-		"key": 3471,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3472": {
-		"key": 3472,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3473": {
-		"key": 3473,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3474": {
-		"key": 3474,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3475": {
-		"key": 3475,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3476": {
-		"key": 3476,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3477": {
-		"key": 3477,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3478": {
-		"key": 3478,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3479": {
-		"key": 3479,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3480": {
-		"key": 3480,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3481": {
-		"key": 3481,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3482": {
-		"key": 3482,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3483": {
-		"key": 3483,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3484": {
-		"key": 3484,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3485": {
-		"key": 3485,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3486": {
-		"key": 3486,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3487": {
-		"key": 3487,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3488": {
-		"key": 3488,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3489": {
-		"key": 3489,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3490": {
-		"key": 3490,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3491": {
-		"key": 3491,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3492": {
-		"key": 3492,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3493": {
-		"key": 3493,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3494": {
-		"key": 3494,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3495": {
-		"key": 3495,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3496": {
-		"key": 3496,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3497": {
-		"key": 3497,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3498": {
-		"key": 3498,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3499": {
-		"key": 3499,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3500": {
-		"key": 3500,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3501": {
-		"key": 3501,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3502": {
-		"key": 3502,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3503": {
-		"key": 3503,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3504": {
-		"key": 3504,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3505": {
-		"key": 3505,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3506": {
-		"key": 3506,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3507": {
-		"key": 3507,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3508": {
-		"key": 3508,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3509": {
-		"key": 3509,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3510": {
-		"key": 3510,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3511": {
-		"key": 3511,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3512": {
-		"key": 3512,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3513": {
-		"key": 3513,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3514": {
-		"key": 3514,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3515": {
-		"key": 3515,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3516": {
-		"key": 3516,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3517": {
-		"key": 3517,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3518": {
-		"key": 3518,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3519": {
-		"key": 3519,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3520": {
-		"key": 3520,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3521": {
-		"key": 3521,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3522": {
-		"key": 3522,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3523": {
-		"key": 3523,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3524": {
-		"key": 3524,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3525": {
-		"key": 3525,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3526": {
-		"key": 3526,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3527": {
-		"key": 3527,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3528": {
-		"key": 3528,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3529": {
-		"key": 3529,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3530": {
-		"key": 3530,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3531": {
-		"key": 3531,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3532": {
-		"key": 3532,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3533": {
-		"key": 3533,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3534": {
-		"key": 3534,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3535": {
-		"key": 3535,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3536": {
-		"key": 3536,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3537": {
-		"key": 3537,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3538": {
-		"key": 3538,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3539": {
-		"key": 3539,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3540": {
-		"key": 3540,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3541": {
-		"key": 3541,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3542": {
-		"key": 3542,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3543": {
-		"key": 3543,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3544": {
-		"key": 3544,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3545": {
-		"key": 3545,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3546": {
-		"key": 3546,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3547": {
-		"key": 3547,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3548": {
-		"key": 3548,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3549": {
-		"key": 3549,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3550": {
-		"key": 3550,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3551": {
-		"key": 3551,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3552": {
-		"key": 3552,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3553": {
-		"key": 3553,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3554": {
-		"key": 3554,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3555": {
-		"key": 3555,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3556": {
-		"key": 3556,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3557": {
-		"key": 3557,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3558": {
-		"key": 3558,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3559": {
-		"key": 3559,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3560": {
-		"key": 3560,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3561": {
-		"key": 3561,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3562": {
-		"key": 3562,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3563": {
-		"key": 3563,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3564": {
-		"key": 3564,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3565": {
-		"key": 3565,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3566": {
-		"key": 3566,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3567": {
-		"key": 3567,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3568": {
-		"key": 3568,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3569": {
-		"key": 3569,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3570": {
-		"key": 3570,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3571": {
-		"key": 3571,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3572": {
-		"key": 3572,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3573": {
-		"key": 3573,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3574": {
-		"key": 3574,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3575": {
-		"key": 3575,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3576": {
-		"key": 3576,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3577": {
-		"key": 3577,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3578": {
-		"key": 3578,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3579": {
-		"key": 3579,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3600": {
-		"key": 3600,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3601": {
-		"key": 3601,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3602": {
-		"key": 3602,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3603": {
-		"key": 3603,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3604": {
-		"key": 3604,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3605": {
-		"key": 3605,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3606": {
-		"key": 3606,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3607": {
-		"key": 3607,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3608": {
-		"key": 3608,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3609": {
-		"key": 3609,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3610": {
-		"key": 3610,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3611": {
-		"key": 3611,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3612": {
-		"key": 3612,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3613": {
-		"key": 3613,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3614": {
-		"key": 3614,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3615": {
-		"key": 3615,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3616": {
-		"key": 3616,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3617": {
-		"key": 3617,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3618": {
-		"key": 3618,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3619": {
-		"key": 3619,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3620": {
-		"key": 3620,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3621": {
-		"key": 3621,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3622": {
-		"key": 3622,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3623": {
-		"key": 3623,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3624": {
-		"key": 3624,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3625": {
-		"key": 3625,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3626": {
-		"key": 3626,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3627": {
-		"key": 3627,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3628": {
-		"key": 3628,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3629": {
-		"key": 3629,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3630": {
-		"key": 3630,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3631": {
-		"key": 3631,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3632": {
-		"key": 3632,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3633": {
-		"key": 3633,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3634": {
-		"key": 3634,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3635": {
-		"key": 3635,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3636": {
-		"key": 3636,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3637": {
-		"key": 3637,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3638": {
-		"key": 3638,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3639": {
-		"key": 3639,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3640": {
-		"key": 3640,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3641": {
-		"key": 3641,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3642": {
-		"key": 3642,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3643": {
-		"key": 3643,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3644": {
-		"key": 3644,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3645": {
-		"key": 3645,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3646": {
-		"key": 3646,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3647": {
-		"key": 3647,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3648": {
-		"key": 3648,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3649": {
-		"key": 3649,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3650": {
-		"key": 3650,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3651": {
-		"key": 3651,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3652": {
-		"key": 3652,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3653": {
-		"key": 3653,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3654": {
-		"key": 3654,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3655": {
-		"key": 3655,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3656": {
-		"key": 3656,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3657": {
-		"key": 3657,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3658": {
-		"key": 3658,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3659": {
-		"key": 3659,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3660": {
-		"key": 3660,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3661": {
-		"key": 3661,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3662": {
-		"key": 3662,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3663": {
-		"key": 3663,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3664": {
-		"key": 3664,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3665": {
-		"key": 3665,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3666": {
-		"key": 3666,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3667": {
-		"key": 3667,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3668": {
-		"key": 3668,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3669": {
-		"key": 3669,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3670": {
-		"key": 3670,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3671": {
-		"key": 3671,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3672": {
-		"key": 3672,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3673": {
-		"key": 3673,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3674": {
-		"key": 3674,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3675": {
-		"key": 3675,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3676": {
-		"key": 3676,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3677": {
-		"key": 3677,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3678": {
-		"key": 3678,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3679": {
-		"key": 3679,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3680": {
-		"key": 3680,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3681": {
-		"key": 3681,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3682": {
-		"key": 3682,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3683": {
-		"key": 3683,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3684": {
-		"key": 3684,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3685": {
-		"key": 3685,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3686": {
-		"key": 3686,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3687": {
-		"key": 3687,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3688": {
-		"key": 3688,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3689": {
-		"key": 3689,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3690": {
-		"key": 3690,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3691": {
-		"key": 3691,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3692": {
-		"key": 3692,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3693": {
-		"key": 3693,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3694": {
-		"key": 3694,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3695": {
-		"key": 3695,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3696": {
-		"key": 3696,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3697": {
-		"key": 3697,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3698": {
-		"key": 3698,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"3699": {
-		"key": 3699,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"37": {
-		"key": 37,
-		"range": "N2+N..8",
-		"minSize": 0,
-		"maxSize": 8
-	},
-	"3900": {
-		"key": 3900,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3901": {
-		"key": 3901,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3902": {
-		"key": 3902,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3903": {
-		"key": 3903,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3904": {
-		"key": 3904,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3905": {
-		"key": 3905,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3906": {
-		"key": 3906,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3907": {
-		"key": 3907,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3908": {
-		"key": 3908,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3909": {
-		"key": 3909,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3910": {
-		"key": 3910,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3911": {
-		"key": 3911,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3912": {
-		"key": 3912,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3913": {
-		"key": 3913,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3914": {
-		"key": 3914,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3915": {
-		"key": 3915,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3916": {
-		"key": 3916,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3917": {
-		"key": 3917,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3918": {
-		"key": 3918,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3919": {
-		"key": 3919,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3920": {
-		"key": 3920,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3921": {
-		"key": 3921,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3922": {
-		"key": 3922,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3923": {
-		"key": 3923,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3924": {
-		"key": 3924,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3925": {
-		"key": 3925,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3926": {
-		"key": 3926,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3927": {
-		"key": 3927,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3928": {
-		"key": 3928,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3929": {
-		"key": 3929,
-		"range": "N4+N..15",
-		"minSize": 0,
-		"maxSize": 15
-	},
-	"3930": {
-		"key": 3930,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3931": {
-		"key": 3931,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3932": {
-		"key": 3932,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3933": {
-		"key": 3933,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3934": {
-		"key": 3934,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3935": {
-		"key": 3935,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3936": {
-		"key": 3936,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3937": {
-		"key": 3937,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3938": {
-		"key": 3938,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3939": {
-		"key": 3939,
-		"range": "N4+N3+N..15",
-		"minSize": 3,
-		"maxSize": 18
-	},
-	"3940": {
-		"key": 3940,
-		"range": "N4+N4",
-		"minSize": 4,
-		"maxSize": 4
-	},
-	"3941": {
-		"key": 3941,
-		"range": "N4+N4",
-		"minSize": 4,
-		"maxSize": 4
-	},
-	"3942": {
-		"key": 3942,
-		"range": "N4+N4",
-		"minSize": 4,
-		"maxSize": 4
-	},
-	"3943": {
-		"key": 3943,
-		"range": "N4+N4",
-		"minSize": 4,
-		"maxSize": 4
-	},
-	"3944": {
-		"key": 3944,
-		"range": "N4+N4",
-		"minSize": 4,
-		"maxSize": 4
-	},
-	"3945": {
-		"key": 3945,
-		"range": "N4+N4",
-		"minSize": 4,
-		"maxSize": 4
-	},
-	"3946": {
-		"key": 3946,
-		"range": "N4+N4",
-		"minSize": 4,
-		"maxSize": 4
-	},
-	"3947": {
-		"key": 3947,
-		"range": "N4+N4",
-		"minSize": 4,
-		"maxSize": 4
-	},
-	"3948": {
-		"key": 3948,
-		"range": "N4+N4",
-		"minSize": 4,
-		"maxSize": 4
-	},
-	"3949": {
-		"key": 3949,
-		"range": "N4+N4",
-		"minSize": 4,
-		"maxSize": 4
-	},
-	"400": {
-		"key": 400,
-		"range": "N3+X..30",
-		"minSize": 0,
-		"maxSize": 30
-	},
-	"401": {
-		"key": 401,
-		"range": "N3+X..30",
-		"minSize": 0,
-		"maxSize": 30
-	},
-	"402": {
-		"key": 402,
-		"range": "N3+N17",
-		"minSize": 17,
-		"maxSize": 17
-	},
-	"403": {
-		"key": 403,
-		"range": "N3+X..30",
-		"minSize": 0,
-		"maxSize": 30
-	},
-	"410": {
-		"key": 410,
-		"range": "N3+N13",
-		"minSize": 13,
-		"maxSize": 13
-	},
-	"411": {
-		"key": 411,
-		"range": "N3+N13",
-		"minSize": 13,
-		"maxSize": 13
-	},
-	"412": {
-		"key": 412,
-		"range": "N3+N13",
-		"minSize": 13,
-		"maxSize": 13
-	},
-	"413": {
-		"key": 413,
-		"range": "N3+N13",
-		"minSize": 13,
-		"maxSize": 13
-	},
-	"414": {
-		"key": 414,
-		"range": "N3+N13",
-		"minSize": 13,
-		"maxSize": 13
-	},
-	"415": {
-		"key": 415,
-		"range": "N3+N13",
-		"minSize": 13,
-		"maxSize": 13
-	},
-	"416": {
-		"key": 416,
-		"range": "N3+N13",
-		"minSize": 13,
-		"maxSize": 13
-	},
-	"417": {
-		"key": 417,
-		"range": "N3+N13",
-		"minSize": 13,
-		"maxSize": 13
-	},
-	"420": {
-		"key": 420,
-		"range": "N3+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"421": {
-		"key": 421,
-		"range": "N3+N3+X..9",
-		"minSize": 3,
-		"maxSize": 12
-	},
-	"422": {
-		"key": 422,
-		"range": "N3+N3",
-		"minSize": 3,
-		"maxSize": 3
-	},
-	"423": {
-		"key": 423,
-		"range": "N3+N3+N..12",
-		"minSize": 3,
-		"maxSize": 15
-	},
-	"424": {
-		"key": 424,
-		"range": "N3+N3",
-		"minSize": 3,
-		"maxSize": 3
-	},
-	"425": {
-		"key": 425,
-		"range": "N3+N3+N..12",
-		"minSize": 3,
-		"maxSize": 15
-	},
-	"426": {
-		"key": 426,
-		"range": "N3+N3",
-		"minSize": 3,
-		"maxSize": 3
-	},
-	"427": {
-		"key": 427,
-		"range": "N3+X..3",
-		"minSize": 0,
-		"maxSize": 3
-	},
-	"7001": {
-		"key": 7001,
-		"range": "N4+N13",
-		"minSize": 13,
-		"maxSize": 13
-	},
-	"7002": {
-		"key": 7002,
-		"range": "N4+X..30",
-		"minSize": 0,
-		"maxSize": 30
-	},
-	"7003": {
-		"key": 7003,
-		"range": "N4+N10",
-		"minSize": 10,
-		"maxSize": 10
-	},
-	"7004": {
-		"key": 7004,
-		"range": "N4+N..4",
-		"minSize": 0,
-		"maxSize": 4
-	},
-	"7005": {
-		"key": 7005,
-		"range": "N4+X..12",
-		"minSize": 0,
-		"maxSize": 12
-	},
-	"7006": {
-		"key": 7006,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"7007": {
-		"key": 7007,
-		"range": "N4+N6..12",
-		"minSize": 6,
-		"maxSize": 12
-	},
-	"7008": {
-		"key": 7008,
-		"range": "N4+X..3",
-		"minSize": 0,
-		"maxSize": 3
-	},
-	"7009": {
-		"key": 7009,
-		"range": "N4+X..10",
-		"minSize": 0,
-		"maxSize": 10
-	},
-	"7010": {
-		"key": 7010,
-		"range": "N4+X..2",
-		"minSize": 0,
-		"maxSize": 2
-	},
-	"7020": {
-		"key": 7020,
-		"range": "N4+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"7021": {
-		"key": 7021,
-		"range": "N4+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"7022": {
-		"key": 7022,
-		"range": "N4+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"7023": {
-		"key": 7023,
-		"range": "N4+X..30",
-		"minSize": 0,
-		"maxSize": 30
-	},
-	"7030": {
-		"key": 7030,
-		"range": "N4+N3+X..27",
-		"minSize": 3,
-		"maxSize": 30
-	},
-	"7031": {
-		"key": 7031,
-		"range": "N4+N3+X..27",
-		"minSize": 3,
-		"maxSize": 30
-	},
-	"7032": {
-		"key": 7032,
-		"range": "N4+N3+X..27",
-		"minSize": 3,
-		"maxSize": 30
-	},
-	"7033": {
-		"key": 7033,
-		"range": "N4+N3+X..27",
-		"minSize": 3,
-		"maxSize": 30
-	},
-	"7034": {
-		"key": 7034,
-		"range": "N4+N3+X..27",
-		"minSize": 3,
-		"maxSize": 30
-	},
-	"7035": {
-		"key": 7035,
-		"range": "N4+N3+X..27",
-		"minSize": 3,
-		"maxSize": 30
-	},
-	"7036": {
-		"key": 7036,
-		"range": "N4+N3+X..27",
-		"minSize": 3,
-		"maxSize": 30
-	},
-	"7037": {
-		"key": 7037,
-		"range": "N4+N3+X..27",
-		"minSize": 3,
-		"maxSize": 30
-	},
-	"7038": {
-		"key": 7038,
-		"range": "N4+N3+X..27",
-		"minSize": 3,
-		"maxSize": 30
-	},
-	"7039": {
-		"key": 7039,
-		"range": "N4+N3+X..27",
-		"minSize": 3,
-		"maxSize": 30
-	},
-	"7040": {
-		"key": 7040,
-		"range": "N4+N1+X3",
-		"minSize": 4,
-		"maxSize": 4
-	},
-	"710": {
-		"key": 710,
-		"range": "N3+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"711": {
-		"key": 711,
-		"range": "N3+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"712": {
-		"key": 712,
-		"range": "N3+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"713": {
-		"key": 713,
-		"range": "N3+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"714": {
-		"key": 714,
-		"range": "N3+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"7230": {
-		"key": 7230,
-		"range": "N4+X2+X..28",
-		"minSize": 2,
-		"maxSize": 30
-	},
-	"7231": {
-		"key": 7231,
-		"range": "N4+X2+X..28",
-		"minSize": 2,
-		"maxSize": 30
-	},
-	"7232": {
-		"key": 7232,
-		"range": "N4+X2+X..28",
-		"minSize": 2,
-		"maxSize": 30
-	},
-	"7233": {
-		"key": 7233,
-		"range": "N4+X2+X..28",
-		"minSize": 2,
-		"maxSize": 30
-	},
-	"7234": {
-		"key": 7234,
-		"range": "N4+X2+X..28",
-		"minSize": 2,
-		"maxSize": 30
-	},
-	"7235": {
-		"key": 7235,
-		"range": "N4+X2+X..28",
-		"minSize": 2,
-		"maxSize": 30
-	},
-	"7236": {
-		"key": 7236,
-		"range": "N4+X2+X..28",
-		"minSize": 2,
-		"maxSize": 30
-	},
-	"7237": {
-		"key": 7237,
-		"range": "N4+X2+X..28",
-		"minSize": 2,
-		"maxSize": 30
-	},
-	"7238": {
-		"key": 7238,
-		"range": "N4+X2+X..28",
-		"minSize": 2,
-		"maxSize": 30
-	},
-	"7239": {
-		"key": 7239,
-		"range": "N4+X2+X..28",
-		"minSize": 2,
-		"maxSize": 30
-	},
-	"7240": {
-		"key": 7240,
-		"range": "N4+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"8001": {
-		"key": 8001,
-		"range": "N4+N14",
-		"minSize": 14,
-		"maxSize": 14
-	},
-	"8002": {
-		"key": 8002,
-		"range": "N4+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"8003": {
-		"key": 8003,
-		"range": "N4+N14+X..16",
-		"minSize": 14,
-		"maxSize": 30
-	},
-	"8004": {
-		"key": 8004,
-		"range": "N4+X..30",
-		"minSize": 0,
-		"maxSize": 30
-	},
-	"8005": {
-		"key": 8005,
-		"range": "N4+N6",
-		"minSize": 6,
-		"maxSize": 6
-	},
-	"8006": {
-		"key": 8006,
-		"range": "N4+N14+N2+N2",
-		"minSize": 18,
-		"maxSize": 18
-	},
-	"8007": {
-		"key": 8007,
-		"range": "N4+X..34",
-		"minSize": 0,
-		"maxSize": 34
-	},
-	"8008": {
-		"key": 8008,
-		"range": "N4+N8+N..4",
-		"minSize": 8,
-		"maxSize": 12
-	},
-	"8009": {
-		"key": 8009,
-		"range": "N4+X..50",
-		"minSize": 0,
-		"maxSize": 50
-	},
-	"8010": {
-		"key": 8010,
-		"range": "N4+X..30",
-		"minSize": 0,
-		"maxSize": 30
-	},
-	"8011": {
-		"key": 8011,
-		"range": "N4+N..12",
-		"minSize": 0,
-		"maxSize": 12
-	},
-	"8012": {
-		"key": 8012,
-		"range": "N4+X..20",
-		"minSize": 0,
-		"maxSize": 20
-	},
-	"8013": {
-		"key": 8013,
-		"range": "N4+X..30",
-		"minSize": 0,
-		"maxSize": 30
-	},
-	"8017": {
-		"key": 8017,
-		"range": "N4+N18",
-		"minSize": 18,
-		"maxSize": 18
-	},
-	"8018": {
-		"key": 8018,
-		"range": "N4+N18",
-		"minSize": 18,
-		"maxSize": 18
-	},
-	"8019": {
-		"key": 8019,
-		"range": "N4+N..10",
-		"minSize": 0,
-		"maxSize": 10
-	},
-	"8020": {
-		"key": 8020,
-		"range": "N4+X..25",
-		"minSize": 0,
-		"maxSize": 25
-	},
-	"8026": {
-		"key": 8026,
-		"range": "N4+N14+N2+N2",
-		"minSize": 18,
-		"maxSize": 18
-	},
-	"8110": {
-		"key": 8110,
-		"range": "N4+X..70",
-		"minSize": 0,
-		"maxSize": 70
-	},
-	"8111": {
-		"key": 8111,
-		"range": "N4+N4",
-		"minSize": 4,
-		"maxSize": 4
-	},
-	"8112": {
-		"key": 8112,
-		"range": "N4+X..70",
-		"minSize": 0,
-		"maxSize": 70
-	},
-	"8200": {
-		"key": 8200,
-		"range": "N4+X..70",
-		"minSize": 0,
-		"maxSize": 70
-	},
-	"90": {
-		"key": 90,
-		"range": "N2+X..30",
-		"minSize": 0,
-		"maxSize": 30,
-		"field": "personalizedInformation"
-	},
-	"91": {
-		"key": 91,
-		"range": "N2+X..90",
-		"minSize": 0,
-		"maxSize": 9,
-		"field": "companyInternalInformation91"
-	},
-	"92": {
-		"key": 92,
-		"range": "N2+X..90",
-		"minSize": 0,
-		"maxSize": 9,
-		"field": "companyInternalInformation92"
-	},
-	"93": {
-		"key": 93,
-		"range": "N2+X..90",
-		"minSize": 0,
-		"maxSize": 9,
-		"field": "companyInternalInformation93"
-	},
-	"94": {
-		"key": 94,
-		"range": "N2+X..90",
-		"minSize": 0,
-		"maxSize": 9,
-		"field": "companyInternalInformation94"
-	},
-	"95": {
-		"key": 95,
-		"range": "N2+X..90",
-		"minSize": 0,
-		"maxSize": 9,
-		"field": "companyInternalInformation95"
-	},
-	"96": {
-		"key": 96,
-		"range": "N2+X..90",
-		"minSize": 0,
-		"maxSize": 9,
-		"field": "companyInternalInformation96"
-	},
-	"97": {
-		"key": 97,
-		"range": "N2+X..90",
-		"minSize": 0,
-		"maxSize": 9,
-		"field": "companyInternalInformation97"
-	},
-	"98": {
-		"key": 98,
-		"range": "N2+X..90",
-		"minSize": 0,
-		"maxSize": 9,
-		"field": "companyInternalInformation98"
-	},
-	"99": {
-		"key": 99,
-		"range": "N2+X..90",
-		"minSize": 0,
-		"maxSize": 9,
-		"field": "companyInternalInformation99"
-	}
+var referencial = {
+  "00": {
+    "key": "00",
+    "range": "N2+N18",
+    "minSize": 18,
+    "maxSize": 18,
+    "field": "sscc"
+  },
+  "01": {
+    "key": "01",
+    "range": "N2+N14",
+    "minSize": 14,
+    "maxSize": 14,
+    "field": "reference"
+  },
+  "02": {
+    "key": "02",
+    "range": "N2+N14",
+    "minSize": 14,
+    "maxSize": 14,
+    "field": "reference"
+  },
+  "10": {
+    "key": "10",
+    "range": "N2+X..20",
+    "minSize": 0,
+    "maxSize": 20,
+    "field": "batch"
+  },
+  "11": {
+    "key": "11",
+    "range": "N2+N6",
+    "minSize": 6,
+    "maxSize": 6,
+    "field": "productionDate"
+  },
+  "12": {
+    "key": "12",
+    "range": "N2+N6",
+    "minSize": 6,
+    "maxSize": 6,
+    "field": "dueDate"
+  },
+  "13": {
+    "key": "13",
+    "range": "N2+N6",
+    "minSize": 6,
+    "maxSize": 6,
+    "field": "packagingDate"
+  },
+  "15": {
+    "key": "15",
+    "range": "N2+N6",
+    "minSize": 6,
+    "maxSize": 6,
+    "field": "bestBeforeDate"
+  },
+  "16": {
+    "key": "16",
+    "range": "N2+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "17": {
+    "key": "17",
+    "range": "N2+N6",
+    "minSize": 6,
+    "maxSize": 6,
+    "field": "expirationdate"
+  },
+  "20": {
+    "key": "20",
+    "range": "N2+N2",
+    "minSize": 2,
+    "maxSize": 2,
+    "field": "internalProductVariant"
+  },
+  "21": {
+    "key": "21",
+    "range": "N2+X..20",
+    "minSize": 0,
+    "maxSize": 20,
+    "field": "consumerProductVariant"
+  },
+  "22": {
+    "key": "22",
+    "range": "N2+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "235": {
+    "key": "235",
+    "range": "N3+X..28",
+    "minSize": 0,
+    "maxSize": 28
+  },
+  "240": {
+    "key": "240",
+    "range": "N3+X..30",
+    "minSize": 0,
+    "maxSize": 30
+  },
+  "241": {
+    "key": "241",
+    "range": "N3+X..30",
+    "minSize": 0,
+    "maxSize": 30
+  },
+  "242": {
+    "key": "242",
+    "range": "N3+N..6",
+    "minSize": 0,
+    "maxSize": 6
+  },
+  "243": {
+    "key": "243",
+    "range": "N3+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "250": {
+    "key": "250",
+    "range": "N3+X..30",
+    "minSize": 0,
+    "maxSize": 30
+  },
+  "251": {
+    "key": "251",
+    "range": "N3+X..30",
+    "minSize": 0,
+    "maxSize": 30
+  },
+  "253": {
+    "key": "253",
+    "range": "N3+N13+X..17",
+    "minSize": 13,
+    "maxSize": 30
+  },
+  "254": {
+    "key": "254",
+    "range": "N3+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "255": {
+    "key": "255",
+    "range": "N3+N13+N..12",
+    "minSize": 13,
+    "maxSize": 25
+  },
+  "30": {
+    "key": "30",
+    "range": "N2+N..8",
+    "minSize": 0,
+    "maxSize": 8
+  },
+  "3100": {
+    "key": "3100",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3101": {
+    "key": "3101",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3102": {
+    "key": "3102",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3103": {
+    "key": "3103",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3104": {
+    "key": "3104",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3105": {
+    "key": "3105",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3106": {
+    "key": "3106",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3107": {
+    "key": "3107",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3108": {
+    "key": "3108",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3109": {
+    "key": "3109",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3110": {
+    "key": "3110",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3111": {
+    "key": "3111",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3112": {
+    "key": "3112",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3113": {
+    "key": "3113",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3114": {
+    "key": "3114",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3115": {
+    "key": "3115",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3116": {
+    "key": "3116",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3117": {
+    "key": "3117",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3118": {
+    "key": "3118",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3119": {
+    "key": "3119",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3120": {
+    "key": "3120",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3121": {
+    "key": "3121",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3122": {
+    "key": "3122",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3123": {
+    "key": "3123",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3124": {
+    "key": "3124",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3125": {
+    "key": "3125",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3126": {
+    "key": "3126",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3127": {
+    "key": "3127",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3128": {
+    "key": "3128",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3129": {
+    "key": "3129",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3130": {
+    "key": "3130",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3131": {
+    "key": "3131",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3132": {
+    "key": "3132",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3133": {
+    "key": "3133",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3134": {
+    "key": "3134",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3135": {
+    "key": "3135",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3136": {
+    "key": "3136",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3137": {
+    "key": "3137",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3138": {
+    "key": "3138",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3139": {
+    "key": "3139",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3140": {
+    "key": "3140",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3141": {
+    "key": "3141",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3142": {
+    "key": "3142",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3143": {
+    "key": "3143",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3144": {
+    "key": "3144",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3145": {
+    "key": "3145",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3146": {
+    "key": "3146",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3147": {
+    "key": "3147",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3148": {
+    "key": "3148",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3149": {
+    "key": "3149",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3150": {
+    "key": "3150",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3151": {
+    "key": "3151",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3152": {
+    "key": "3152",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3153": {
+    "key": "3153",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3154": {
+    "key": "3154",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3155": {
+    "key": "3155",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3156": {
+    "key": "3156",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3157": {
+    "key": "3157",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3158": {
+    "key": "3158",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3159": {
+    "key": "3159",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3160": {
+    "key": "3160",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3161": {
+    "key": "3161",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3162": {
+    "key": "3162",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3163": {
+    "key": "3163",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3164": {
+    "key": "3164",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3165": {
+    "key": "3165",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3166": {
+    "key": "3166",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3167": {
+    "key": "3167",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3168": {
+    "key": "3168",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3169": {
+    "key": "3169",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3200": {
+    "key": "3200",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3201": {
+    "key": "3201",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3202": {
+    "key": "3202",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3203": {
+    "key": "3203",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3204": {
+    "key": "3204",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3205": {
+    "key": "3205",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3206": {
+    "key": "3206",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3207": {
+    "key": "3207",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3208": {
+    "key": "3208",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3209": {
+    "key": "3209",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3210": {
+    "key": "3210",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3211": {
+    "key": "3211",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3212": {
+    "key": "3212",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3213": {
+    "key": "3213",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3214": {
+    "key": "3214",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3215": {
+    "key": "3215",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3216": {
+    "key": "3216",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3217": {
+    "key": "3217",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3218": {
+    "key": "3218",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3219": {
+    "key": "3219",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3220": {
+    "key": "3220",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3221": {
+    "key": "3221",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3222": {
+    "key": "3222",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3223": {
+    "key": "3223",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3224": {
+    "key": "3224",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3225": {
+    "key": "3225",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3226": {
+    "key": "3226",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3227": {
+    "key": "3227",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3228": {
+    "key": "3228",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3229": {
+    "key": "3229",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3230": {
+    "key": "3230",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3231": {
+    "key": "3231",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3232": {
+    "key": "3232",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3233": {
+    "key": "3233",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3234": {
+    "key": "3234",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3235": {
+    "key": "3235",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3236": {
+    "key": "3236",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3237": {
+    "key": "3237",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3238": {
+    "key": "3238",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3239": {
+    "key": "3239",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3240": {
+    "key": "3240",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3241": {
+    "key": "3241",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3242": {
+    "key": "3242",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3243": {
+    "key": "3243",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3244": {
+    "key": "3244",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3245": {
+    "key": "3245",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3246": {
+    "key": "3246",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3247": {
+    "key": "3247",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3248": {
+    "key": "3248",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3249": {
+    "key": "3249",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3250": {
+    "key": "3250",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3251": {
+    "key": "3251",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3252": {
+    "key": "3252",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3253": {
+    "key": "3253",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3254": {
+    "key": "3254",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3255": {
+    "key": "3255",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3256": {
+    "key": "3256",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3257": {
+    "key": "3257",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3258": {
+    "key": "3258",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3259": {
+    "key": "3259",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3260": {
+    "key": "3260",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3261": {
+    "key": "3261",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3262": {
+    "key": "3262",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3263": {
+    "key": "3263",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3264": {
+    "key": "3264",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3265": {
+    "key": "3265",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3266": {
+    "key": "3266",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3267": {
+    "key": "3267",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3268": {
+    "key": "3268",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3269": {
+    "key": "3269",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3270": {
+    "key": "3270",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3271": {
+    "key": "3271",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3272": {
+    "key": "3272",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3273": {
+    "key": "3273",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3274": {
+    "key": "3274",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3275": {
+    "key": "3275",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3276": {
+    "key": "3276",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3277": {
+    "key": "3277",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3278": {
+    "key": "3278",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3279": {
+    "key": "3279",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3280": {
+    "key": "3280",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3281": {
+    "key": "3281",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3282": {
+    "key": "3282",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3283": {
+    "key": "3283",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3284": {
+    "key": "3284",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3285": {
+    "key": "3285",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3286": {
+    "key": "3286",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3287": {
+    "key": "3287",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3288": {
+    "key": "3288",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3289": {
+    "key": "3289",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3290": {
+    "key": "3290",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3291": {
+    "key": "3291",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3292": {
+    "key": "3292",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3293": {
+    "key": "3293",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3294": {
+    "key": "3294",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3295": {
+    "key": "3295",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3296": {
+    "key": "3296",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3297": {
+    "key": "3297",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3298": {
+    "key": "3298",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3299": {
+    "key": "3299",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3300": {
+    "key": "3300",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3301": {
+    "key": "3301",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3302": {
+    "key": "3302",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3303": {
+    "key": "3303",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3304": {
+    "key": "3304",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3305": {
+    "key": "3305",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3306": {
+    "key": "3306",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3307": {
+    "key": "3307",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3308": {
+    "key": "3308",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3309": {
+    "key": "3309",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3310": {
+    "key": "3310",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3311": {
+    "key": "3311",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3312": {
+    "key": "3312",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3313": {
+    "key": "3313",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3314": {
+    "key": "3314",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3315": {
+    "key": "3315",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3316": {
+    "key": "3316",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3317": {
+    "key": "3317",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3318": {
+    "key": "3318",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3319": {
+    "key": "3319",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3320": {
+    "key": "3320",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3321": {
+    "key": "3321",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3322": {
+    "key": "3322",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3323": {
+    "key": "3323",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3324": {
+    "key": "3324",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3325": {
+    "key": "3325",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3326": {
+    "key": "3326",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3327": {
+    "key": "3327",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3328": {
+    "key": "3328",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3329": {
+    "key": "3329",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3330": {
+    "key": "3330",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3331": {
+    "key": "3331",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3332": {
+    "key": "3332",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3333": {
+    "key": "3333",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3334": {
+    "key": "3334",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3335": {
+    "key": "3335",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3336": {
+    "key": "3336",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3337": {
+    "key": "3337",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3338": {
+    "key": "3338",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3339": {
+    "key": "3339",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3340": {
+    "key": "3340",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3341": {
+    "key": "3341",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3342": {
+    "key": "3342",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3343": {
+    "key": "3343",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3344": {
+    "key": "3344",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3345": {
+    "key": "3345",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3346": {
+    "key": "3346",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3347": {
+    "key": "3347",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3348": {
+    "key": "3348",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3349": {
+    "key": "3349",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3350": {
+    "key": "3350",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3351": {
+    "key": "3351",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3352": {
+    "key": "3352",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3353": {
+    "key": "3353",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3354": {
+    "key": "3354",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3355": {
+    "key": "3355",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3356": {
+    "key": "3356",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3357": {
+    "key": "3357",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3358": {
+    "key": "3358",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3359": {
+    "key": "3359",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3360": {
+    "key": "3360",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3361": {
+    "key": "3361",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3362": {
+    "key": "3362",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3363": {
+    "key": "3363",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3364": {
+    "key": "3364",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3365": {
+    "key": "3365",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3366": {
+    "key": "3366",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3367": {
+    "key": "3367",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3368": {
+    "key": "3368",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3369": {
+    "key": "3369",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3370": {
+    "key": "3370",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3371": {
+    "key": "3371",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3372": {
+    "key": "3372",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3373": {
+    "key": "3373",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3374": {
+    "key": "3374",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3375": {
+    "key": "3375",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3376": {
+    "key": "3376",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3377": {
+    "key": "3377",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3378": {
+    "key": "3378",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3379": {
+    "key": "3379",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3400": {
+    "key": "3400",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3401": {
+    "key": "3401",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3402": {
+    "key": "3402",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3403": {
+    "key": "3403",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3404": {
+    "key": "3404",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3405": {
+    "key": "3405",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3406": {
+    "key": "3406",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3407": {
+    "key": "3407",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3408": {
+    "key": "3408",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3409": {
+    "key": "3409",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3410": {
+    "key": "3410",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3411": {
+    "key": "3411",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3412": {
+    "key": "3412",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3413": {
+    "key": "3413",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3414": {
+    "key": "3414",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3415": {
+    "key": "3415",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3416": {
+    "key": "3416",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3417": {
+    "key": "3417",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3418": {
+    "key": "3418",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3419": {
+    "key": "3419",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3420": {
+    "key": "3420",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3421": {
+    "key": "3421",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3422": {
+    "key": "3422",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3423": {
+    "key": "3423",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3424": {
+    "key": "3424",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3425": {
+    "key": "3425",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3426": {
+    "key": "3426",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3427": {
+    "key": "3427",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3428": {
+    "key": "3428",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3429": {
+    "key": "3429",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3430": {
+    "key": "3430",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3431": {
+    "key": "3431",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3432": {
+    "key": "3432",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3433": {
+    "key": "3433",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3434": {
+    "key": "3434",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3435": {
+    "key": "3435",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3436": {
+    "key": "3436",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3437": {
+    "key": "3437",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3438": {
+    "key": "3438",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3439": {
+    "key": "3439",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3440": {
+    "key": "3440",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3441": {
+    "key": "3441",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3442": {
+    "key": "3442",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3443": {
+    "key": "3443",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3444": {
+    "key": "3444",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3445": {
+    "key": "3445",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3446": {
+    "key": "3446",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3447": {
+    "key": "3447",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3448": {
+    "key": "3448",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3449": {
+    "key": "3449",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3450": {
+    "key": "3450",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3451": {
+    "key": "3451",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3452": {
+    "key": "3452",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3453": {
+    "key": "3453",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3454": {
+    "key": "3454",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3455": {
+    "key": "3455",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3456": {
+    "key": "3456",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3457": {
+    "key": "3457",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3458": {
+    "key": "3458",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3459": {
+    "key": "3459",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3460": {
+    "key": "3460",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3461": {
+    "key": "3461",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3462": {
+    "key": "3462",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3463": {
+    "key": "3463",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3464": {
+    "key": "3464",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3465": {
+    "key": "3465",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3466": {
+    "key": "3466",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3467": {
+    "key": "3467",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3468": {
+    "key": "3468",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3469": {
+    "key": "3469",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3470": {
+    "key": "3470",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3471": {
+    "key": "3471",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3472": {
+    "key": "3472",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3473": {
+    "key": "3473",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3474": {
+    "key": "3474",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3475": {
+    "key": "3475",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3476": {
+    "key": "3476",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3477": {
+    "key": "3477",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3478": {
+    "key": "3478",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3479": {
+    "key": "3479",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3480": {
+    "key": "3480",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3481": {
+    "key": "3481",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3482": {
+    "key": "3482",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3483": {
+    "key": "3483",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3484": {
+    "key": "3484",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3485": {
+    "key": "3485",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3486": {
+    "key": "3486",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3487": {
+    "key": "3487",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3488": {
+    "key": "3488",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3489": {
+    "key": "3489",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3490": {
+    "key": "3490",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3491": {
+    "key": "3491",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3492": {
+    "key": "3492",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3493": {
+    "key": "3493",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3494": {
+    "key": "3494",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3495": {
+    "key": "3495",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3496": {
+    "key": "3496",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3497": {
+    "key": "3497",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3498": {
+    "key": "3498",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3499": {
+    "key": "3499",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3500": {
+    "key": "3500",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3501": {
+    "key": "3501",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3502": {
+    "key": "3502",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3503": {
+    "key": "3503",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3504": {
+    "key": "3504",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3505": {
+    "key": "3505",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3506": {
+    "key": "3506",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3507": {
+    "key": "3507",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3508": {
+    "key": "3508",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3509": {
+    "key": "3509",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3510": {
+    "key": "3510",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3511": {
+    "key": "3511",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3512": {
+    "key": "3512",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3513": {
+    "key": "3513",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3514": {
+    "key": "3514",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3515": {
+    "key": "3515",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3516": {
+    "key": "3516",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3517": {
+    "key": "3517",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3518": {
+    "key": "3518",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3519": {
+    "key": "3519",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3520": {
+    "key": "3520",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3521": {
+    "key": "3521",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3522": {
+    "key": "3522",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3523": {
+    "key": "3523",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3524": {
+    "key": "3524",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3525": {
+    "key": "3525",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3526": {
+    "key": "3526",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3527": {
+    "key": "3527",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3528": {
+    "key": "3528",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3529": {
+    "key": "3529",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3530": {
+    "key": "3530",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3531": {
+    "key": "3531",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3532": {
+    "key": "3532",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3533": {
+    "key": "3533",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3534": {
+    "key": "3534",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3535": {
+    "key": "3535",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3536": {
+    "key": "3536",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3537": {
+    "key": "3537",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3538": {
+    "key": "3538",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3539": {
+    "key": "3539",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3540": {
+    "key": "3540",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3541": {
+    "key": "3541",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3542": {
+    "key": "3542",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3543": {
+    "key": "3543",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3544": {
+    "key": "3544",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3545": {
+    "key": "3545",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3546": {
+    "key": "3546",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3547": {
+    "key": "3547",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3548": {
+    "key": "3548",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3549": {
+    "key": "3549",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3550": {
+    "key": "3550",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3551": {
+    "key": "3551",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3552": {
+    "key": "3552",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3553": {
+    "key": "3553",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3554": {
+    "key": "3554",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3555": {
+    "key": "3555",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3556": {
+    "key": "3556",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3557": {
+    "key": "3557",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3558": {
+    "key": "3558",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3559": {
+    "key": "3559",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3560": {
+    "key": "3560",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3561": {
+    "key": "3561",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3562": {
+    "key": "3562",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3563": {
+    "key": "3563",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3564": {
+    "key": "3564",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3565": {
+    "key": "3565",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3566": {
+    "key": "3566",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3567": {
+    "key": "3567",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3568": {
+    "key": "3568",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3569": {
+    "key": "3569",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3570": {
+    "key": "3570",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3571": {
+    "key": "3571",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3572": {
+    "key": "3572",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3573": {
+    "key": "3573",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3574": {
+    "key": "3574",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3575": {
+    "key": "3575",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3576": {
+    "key": "3576",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3577": {
+    "key": "3577",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3578": {
+    "key": "3578",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3579": {
+    "key": "3579",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3600": {
+    "key": "3600",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3601": {
+    "key": "3601",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3602": {
+    "key": "3602",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3603": {
+    "key": "3603",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3604": {
+    "key": "3604",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3605": {
+    "key": "3605",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3606": {
+    "key": "3606",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3607": {
+    "key": "3607",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3608": {
+    "key": "3608",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3609": {
+    "key": "3609",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3610": {
+    "key": "3610",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3611": {
+    "key": "3611",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3612": {
+    "key": "3612",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3613": {
+    "key": "3613",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3614": {
+    "key": "3614",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3615": {
+    "key": "3615",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3616": {
+    "key": "3616",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3617": {
+    "key": "3617",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3618": {
+    "key": "3618",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3619": {
+    "key": "3619",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3620": {
+    "key": "3620",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3621": {
+    "key": "3621",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3622": {
+    "key": "3622",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3623": {
+    "key": "3623",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3624": {
+    "key": "3624",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3625": {
+    "key": "3625",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3626": {
+    "key": "3626",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3627": {
+    "key": "3627",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3628": {
+    "key": "3628",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3629": {
+    "key": "3629",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3630": {
+    "key": "3630",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3631": {
+    "key": "3631",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3632": {
+    "key": "3632",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3633": {
+    "key": "3633",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3634": {
+    "key": "3634",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3635": {
+    "key": "3635",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3636": {
+    "key": "3636",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3637": {
+    "key": "3637",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3638": {
+    "key": "3638",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3639": {
+    "key": "3639",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3640": {
+    "key": "3640",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3641": {
+    "key": "3641",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3642": {
+    "key": "3642",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3643": {
+    "key": "3643",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3644": {
+    "key": "3644",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3645": {
+    "key": "3645",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3646": {
+    "key": "3646",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3647": {
+    "key": "3647",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3648": {
+    "key": "3648",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3649": {
+    "key": "3649",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3650": {
+    "key": "3650",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3651": {
+    "key": "3651",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3652": {
+    "key": "3652",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3653": {
+    "key": "3653",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3654": {
+    "key": "3654",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3655": {
+    "key": "3655",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3656": {
+    "key": "3656",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3657": {
+    "key": "3657",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3658": {
+    "key": "3658",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3659": {
+    "key": "3659",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3660": {
+    "key": "3660",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3661": {
+    "key": "3661",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3662": {
+    "key": "3662",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3663": {
+    "key": "3663",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3664": {
+    "key": "3664",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3665": {
+    "key": "3665",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3666": {
+    "key": "3666",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3667": {
+    "key": "3667",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3668": {
+    "key": "3668",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3669": {
+    "key": "3669",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3670": {
+    "key": "3670",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3671": {
+    "key": "3671",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3672": {
+    "key": "3672",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3673": {
+    "key": "3673",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3674": {
+    "key": "3674",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3675": {
+    "key": "3675",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3676": {
+    "key": "3676",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3677": {
+    "key": "3677",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3678": {
+    "key": "3678",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3679": {
+    "key": "3679",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3680": {
+    "key": "3680",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3681": {
+    "key": "3681",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3682": {
+    "key": "3682",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3683": {
+    "key": "3683",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3684": {
+    "key": "3684",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3685": {
+    "key": "3685",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3686": {
+    "key": "3686",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3687": {
+    "key": "3687",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3688": {
+    "key": "3688",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3689": {
+    "key": "3689",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3690": {
+    "key": "3690",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3691": {
+    "key": "3691",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3692": {
+    "key": "3692",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3693": {
+    "key": "3693",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3694": {
+    "key": "3694",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3695": {
+    "key": "3695",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3696": {
+    "key": "3696",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3697": {
+    "key": "3697",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3698": {
+    "key": "3698",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "3699": {
+    "key": "3699",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "37": {
+    "key": "37",
+    "range": "N2+N..8",
+    "minSize": 0,
+    "maxSize": 8
+  },
+  "3900": {
+    "key": "3900",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3901": {
+    "key": "3901",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3902": {
+    "key": "3902",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3903": {
+    "key": "3903",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3904": {
+    "key": "3904",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3905": {
+    "key": "3905",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3906": {
+    "key": "3906",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3907": {
+    "key": "3907",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3908": {
+    "key": "3908",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3909": {
+    "key": "3909",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3910": {
+    "key": "3910",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3911": {
+    "key": "3911",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3912": {
+    "key": "3912",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3913": {
+    "key": "3913",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3914": {
+    "key": "3914",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3915": {
+    "key": "3915",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3916": {
+    "key": "3916",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3917": {
+    "key": "3917",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3918": {
+    "key": "3918",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3919": {
+    "key": "3919",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3920": {
+    "key": "3920",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3921": {
+    "key": "3921",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3922": {
+    "key": "3922",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3923": {
+    "key": "3923",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3924": {
+    "key": "3924",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3925": {
+    "key": "3925",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3926": {
+    "key": "3926",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3927": {
+    "key": "3927",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3928": {
+    "key": "3928",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3929": {
+    "key": "3929",
+    "range": "N4+N..15",
+    "minSize": 0,
+    "maxSize": 15
+  },
+  "3930": {
+    "key": "3930",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3931": {
+    "key": "3931",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3932": {
+    "key": "3932",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3933": {
+    "key": "3933",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3934": {
+    "key": "3934",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3935": {
+    "key": "3935",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3936": {
+    "key": "3936",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3937": {
+    "key": "3937",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3938": {
+    "key": "3938",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3939": {
+    "key": "3939",
+    "range": "N4+N3+N..15",
+    "minSize": 3,
+    "maxSize": 18
+  },
+  "3940": {
+    "key": "3940",
+    "range": "N4+N4",
+    "minSize": 4,
+    "maxSize": 4
+  },
+  "3941": {
+    "key": "3941",
+    "range": "N4+N4",
+    "minSize": 4,
+    "maxSize": 4
+  },
+  "3942": {
+    "key": "3942",
+    "range": "N4+N4",
+    "minSize": 4,
+    "maxSize": 4
+  },
+  "3943": {
+    "key": "3943",
+    "range": "N4+N4",
+    "minSize": 4,
+    "maxSize": 4
+  },
+  "3944": {
+    "key": "3944",
+    "range": "N4+N4",
+    "minSize": 4,
+    "maxSize": 4
+  },
+  "3945": {
+    "key": "3945",
+    "range": "N4+N4",
+    "minSize": 4,
+    "maxSize": 4
+  },
+  "3946": {
+    "key": "3946",
+    "range": "N4+N4",
+    "minSize": 4,
+    "maxSize": 4
+  },
+  "3947": {
+    "key": "3947",
+    "range": "N4+N4",
+    "minSize": 4,
+    "maxSize": 4
+  },
+  "3948": {
+    "key": "3948",
+    "range": "N4+N4",
+    "minSize": 4,
+    "maxSize": 4
+  },
+  "3949": {
+    "key": "3949",
+    "range": "N4+N4",
+    "minSize": 4,
+    "maxSize": 4
+  },
+  "400": {
+    "key": "400",
+    "range": "N3+X..30",
+    "minSize": 0,
+    "maxSize": 30
+  },
+  "401": {
+    "key": "401",
+    "range": "N3+X..30",
+    "minSize": 0,
+    "maxSize": 30
+  },
+  "402": {
+    "key": "402",
+    "range": "N3+N17",
+    "minSize": 17,
+    "maxSize": 17
+  },
+  "403": {
+    "key": "403",
+    "range": "N3+X..30",
+    "minSize": 0,
+    "maxSize": 30
+  },
+  "410": {
+    "key": "410",
+    "range": "N3+N13",
+    "minSize": 13,
+    "maxSize": 13
+  },
+  "411": {
+    "key": "411",
+    "range": "N3+N13",
+    "minSize": 13,
+    "maxSize": 13
+  },
+  "412": {
+    "key": "412",
+    "range": "N3+N13",
+    "minSize": 13,
+    "maxSize": 13
+  },
+  "413": {
+    "key": "413",
+    "range": "N3+N13",
+    "minSize": 13,
+    "maxSize": 13
+  },
+  "414": {
+    "key": "414",
+    "range": "N3+N13",
+    "minSize": 13,
+    "maxSize": 13
+  },
+  "415": {
+    "key": "415",
+    "range": "N3+N13",
+    "minSize": 13,
+    "maxSize": 13
+  },
+  "416": {
+    "key": "416",
+    "range": "N3+N13",
+    "minSize": 13,
+    "maxSize": 13
+  },
+  "417": {
+    "key": "417",
+    "range": "N3+N13",
+    "minSize": 13,
+    "maxSize": 13
+  },
+  "420": {
+    "key": "420",
+    "range": "N3+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "421": {
+    "key": "421",
+    "range": "N3+N3+X..9",
+    "minSize": 3,
+    "maxSize": 12
+  },
+  "422": {
+    "key": "422",
+    "range": "N3+N3",
+    "minSize": 3,
+    "maxSize": 3
+  },
+  "423": {
+    "key": "423",
+    "range": "N3+N3+N..12",
+    "minSize": 3,
+    "maxSize": 15
+  },
+  "424": {
+    "key": "424",
+    "range": "N3+N3",
+    "minSize": 3,
+    "maxSize": 3
+  },
+  "425": {
+    "key": "425",
+    "range": "N3+N3+N..12",
+    "minSize": 3,
+    "maxSize": 15
+  },
+  "426": {
+    "key": "426",
+    "range": "N3+N3",
+    "minSize": 3,
+    "maxSize": 3
+  },
+  "427": {
+    "key": "427",
+    "range": "N3+X..3",
+    "minSize": 0,
+    "maxSize": 3
+  },
+  "7001": {
+    "key": "7001",
+    "range": "N4+N13",
+    "minSize": 13,
+    "maxSize": 13
+  },
+  "7002": {
+    "key": "7002",
+    "range": "N4+X..30",
+    "minSize": 0,
+    "maxSize": 30
+  },
+  "7003": {
+    "key": "7003",
+    "range": "N4+N10",
+    "minSize": 10,
+    "maxSize": 10
+  },
+  "7004": {
+    "key": "7004",
+    "range": "N4+N..4",
+    "minSize": 0,
+    "maxSize": 4
+  },
+  "7005": {
+    "key": "7005",
+    "range": "N4+X..12",
+    "minSize": 0,
+    "maxSize": 12
+  },
+  "7006": {
+    "key": "7006",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "7007": {
+    "key": "7007",
+    "range": "N4+N6..12",
+    "minSize": 6,
+    "maxSize": 12
+  },
+  "7008": {
+    "key": "7008",
+    "range": "N4+X..3",
+    "minSize": 0,
+    "maxSize": 3
+  },
+  "7009": {
+    "key": "7009",
+    "range": "N4+X..10",
+    "minSize": 0,
+    "maxSize": 10
+  },
+  "7010": {
+    "key": "7010",
+    "range": "N4+X..2",
+    "minSize": 0,
+    "maxSize": 2
+  },
+  "7020": {
+    "key": "7020",
+    "range": "N4+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "7021": {
+    "key": "7021",
+    "range": "N4+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "7022": {
+    "key": "7022",
+    "range": "N4+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "7023": {
+    "key": "7023",
+    "range": "N4+X..30",
+    "minSize": 0,
+    "maxSize": 30
+  },
+  "7030": {
+    "key": "7030",
+    "range": "N4+N3+X..27",
+    "minSize": 3,
+    "maxSize": 30
+  },
+  "7031": {
+    "key": "7031",
+    "range": "N4+N3+X..27",
+    "minSize": 3,
+    "maxSize": 30
+  },
+  "7032": {
+    "key": "7032",
+    "range": "N4+N3+X..27",
+    "minSize": 3,
+    "maxSize": 30
+  },
+  "7033": {
+    "key": "7033",
+    "range": "N4+N3+X..27",
+    "minSize": 3,
+    "maxSize": 30
+  },
+  "7034": {
+    "key": "7034",
+    "range": "N4+N3+X..27",
+    "minSize": 3,
+    "maxSize": 30
+  },
+  "7035": {
+    "key": "7035",
+    "range": "N4+N3+X..27",
+    "minSize": 3,
+    "maxSize": 30
+  },
+  "7036": {
+    "key": "7036",
+    "range": "N4+N3+X..27",
+    "minSize": 3,
+    "maxSize": 30
+  },
+  "7037": {
+    "key": "7037",
+    "range": "N4+N3+X..27",
+    "minSize": 3,
+    "maxSize": 30
+  },
+  "7038": {
+    "key": "7038",
+    "range": "N4+N3+X..27",
+    "minSize": 3,
+    "maxSize": 30
+  },
+  "7039": {
+    "key": "7039",
+    "range": "N4+N3+X..27",
+    "minSize": 3,
+    "maxSize": 30
+  },
+  "7040": {
+    "key": "7040",
+    "range": "N4+N1+X3",
+    "minSize": 4,
+    "maxSize": 4
+  },
+  "710": {
+    "key": "710",
+    "range": "N3+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "711": {
+    "key": "711",
+    "range": "N3+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "712": {
+    "key": "712",
+    "range": "N3+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "713": {
+    "key": "713",
+    "range": "N3+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "714": {
+    "key": "714",
+    "range": "N3+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "7230": {
+    "key": "7230",
+    "range": "N4+X2+X..28",
+    "minSize": 2,
+    "maxSize": 30
+  },
+  "7231": {
+    "key": "7231",
+    "range": "N4+X2+X..28",
+    "minSize": 2,
+    "maxSize": 30
+  },
+  "7232": {
+    "key": "7232",
+    "range": "N4+X2+X..28",
+    "minSize": 2,
+    "maxSize": 30
+  },
+  "7233": {
+    "key": "7233",
+    "range": "N4+X2+X..28",
+    "minSize": 2,
+    "maxSize": 30
+  },
+  "7234": {
+    "key": "7234",
+    "range": "N4+X2+X..28",
+    "minSize": 2,
+    "maxSize": 30
+  },
+  "7235": {
+    "key": "7235",
+    "range": "N4+X2+X..28",
+    "minSize": 2,
+    "maxSize": 30
+  },
+  "7236": {
+    "key": "7236",
+    "range": "N4+X2+X..28",
+    "minSize": 2,
+    "maxSize": 30
+  },
+  "7237": {
+    "key": "7237",
+    "range": "N4+X2+X..28",
+    "minSize": 2,
+    "maxSize": 30
+  },
+  "7238": {
+    "key": "7238",
+    "range": "N4+X2+X..28",
+    "minSize": 2,
+    "maxSize": 30
+  },
+  "7239": {
+    "key": "7239",
+    "range": "N4+X2+X..28",
+    "minSize": 2,
+    "maxSize": 30
+  },
+  "7240": {
+    "key": "7240",
+    "range": "N4+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "8001": {
+    "key": "8001",
+    "range": "N4+N14",
+    "minSize": 14,
+    "maxSize": 14
+  },
+  "8002": {
+    "key": "8002",
+    "range": "N4+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "8003": {
+    "key": "8003",
+    "range": "N4+N14+X..16",
+    "minSize": 14,
+    "maxSize": 30
+  },
+  "8004": {
+    "key": "8004",
+    "range": "N4+X..30",
+    "minSize": 0,
+    "maxSize": 30
+  },
+  "8005": {
+    "key": "8005",
+    "range": "N4+N6",
+    "minSize": 6,
+    "maxSize": 6
+  },
+  "8006": {
+    "key": "8006",
+    "range": "N4+N14+N2+N2",
+    "minSize": 18,
+    "maxSize": 18
+  },
+  "8007": {
+    "key": "8007",
+    "range": "N4+X..34",
+    "minSize": 0,
+    "maxSize": 34
+  },
+  "8008": {
+    "key": "8008",
+    "range": "N4+N8+N..4",
+    "minSize": 8,
+    "maxSize": 12
+  },
+  "8009": {
+    "key": "8009",
+    "range": "N4+X..50",
+    "minSize": 0,
+    "maxSize": 50
+  },
+  "8010": {
+    "key": "8010",
+    "range": "N4+X..30",
+    "minSize": 0,
+    "maxSize": 30
+  },
+  "8011": {
+    "key": "8011",
+    "range": "N4+N..12",
+    "minSize": 0,
+    "maxSize": 12
+  },
+  "8012": {
+    "key": "8012",
+    "range": "N4+X..20",
+    "minSize": 0,
+    "maxSize": 20
+  },
+  "8013": {
+    "key": "8013",
+    "range": "N4+X..30",
+    "minSize": 0,
+    "maxSize": 30
+  },
+  "8017": {
+    "key": "8017",
+    "range": "N4+N18",
+    "minSize": 18,
+    "maxSize": 18
+  },
+  "8018": {
+    "key": "8018",
+    "range": "N4+N18",
+    "minSize": 18,
+    "maxSize": 18
+  },
+  "8019": {
+    "key": "8019",
+    "range": "N4+N..10",
+    "minSize": 0,
+    "maxSize": 10
+  },
+  "8020": {
+    "key": "8020",
+    "range": "N4+X..25",
+    "minSize": 0,
+    "maxSize": 25
+  },
+  "8026": {
+    "key": "8026",
+    "range": "N4+N14+N2+N2",
+    "minSize": 18,
+    "maxSize": 18
+  },
+  "8110": {
+    "key": "8110",
+    "range": "N4+X..70",
+    "minSize": 0,
+    "maxSize": 70
+  },
+  "8111": {
+    "key": "8111",
+    "range": "N4+N4",
+    "minSize": 4,
+    "maxSize": 4
+  },
+  "8112": {
+    "key": "8112",
+    "range": "N4+X..70",
+    "minSize": 0,
+    "maxSize": 70
+  },
+  "8200": {
+    "key": "8200",
+    "range": "N4+X..70",
+    "minSize": 0,
+    "maxSize": 70
+  },
+  "90": {
+    "key": "90",
+    "range": "N2+X..30",
+    "minSize": 0,
+    "maxSize": 30,
+    "field": "personalizedInformation"
+  },
+  "91": {
+    "key": "91",
+    "range": "N2+X..90",
+    "minSize": 0,
+    "maxSize": 9,
+    "field": "companyInternalInformation91"
+  },
+  "92": {
+    "key": "92",
+    "range": "N2+X..90",
+    "minSize": 0,
+    "maxSize": 9,
+    "field": "companyInternalInformation92"
+  },
+  "93": {
+    "key": "93",
+    "range": "N2+X..90",
+    "minSize": 0,
+    "maxSize": 9,
+    "field": "companyInternalInformation93"
+  },
+  "94": {
+    "key": "94",
+    "range": "N2+X..90",
+    "minSize": 0,
+    "maxSize": 9,
+    "field": "companyInternalInformation94"
+  },
+  "95": {
+    "key": "95",
+    "range": "N2+X..90",
+    "minSize": 0,
+    "maxSize": 9,
+    "field": "companyInternalInformation95"
+  },
+  "96": {
+    "key": "96",
+    "range": "N2+X..90",
+    "minSize": 0,
+    "maxSize": 9,
+    "field": "companyInternalInformation96"
+  },
+  "97": {
+    "key": "97",
+    "range": "N2+X..90",
+    "minSize": 0,
+    "maxSize": 9,
+    "field": "companyInternalInformation97"
+  },
+  "98": {
+    "key": "98",
+    "range": "N2+X..90",
+    "minSize": 0,
+    "maxSize": 9,
+    "field": "companyInternalInformation98"
+  },
+  "99": {
+    "key": "99",
+    "range": "N2+X..90",
+    "minSize": 0,
+    "maxSize": 9,
+    "field": "companyInternalInformation99"
+  }
 }
